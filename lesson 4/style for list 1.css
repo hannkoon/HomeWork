@@ -1,0 +1,10 @@
+.punkt {
+    display: inline-block;
+    background-color: bisque;
+    width: 60px;
+    height: 20px;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    color: green;
+}
