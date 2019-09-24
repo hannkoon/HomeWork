@@ -1,10 +1,24 @@
+.menu {
+    display: inline-block;
+    width: 350px;
+    height: 35px;
+    padding: 20px;
+    background-color: rgb(122, 203, 223);
+    text-align: center;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+
 .point {
     display: inline-block;
     width: 100px;
     height: 20px;
     padding: 5px;
     text-align: center;
-    background-color:rgb(101, 210, 238);
+    background-color:rgb(120, 113, 190);
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     border-bottom-left-radius: 30px;
@@ -12,17 +26,9 @@
 }
 
 #a {
-    background-color: rgb(145, 109, 230);
+    background-color: rgb(89, 112, 241);
 }
 
 #b{
     background-color:rgb(190, 61, 180);
-}
-
-#c{
-    background-color:rgb(177, 81, 169);
-}
-
-#d{
-    background-color:rgb(231, 162, 224);
 }
