@@ -1,0 +1,51 @@
+.cldr {
+    display: inline-block;
+    background-color:gainsboro;
+}
+
+
+.sept {
+    display: inline-block;    
+    text-align: center;
+    color: darkcyan;
+    width: 210px;
+    height: 20px;
+    padding: 10px;
+}
+
+
+.code {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    padding: 5px;
+}
+
+
+.code1 {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    padding: 5px;
+    color: gray;
+}
+
+.code2 {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    padding: 5px;
+    color: rgb(184, 104, 104);
+}
+
+#day {
+    background-color: rgb(87, 119, 119);
+}
+
+#red {
+    color: red;
+}
+
