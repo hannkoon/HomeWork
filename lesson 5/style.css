@@ -82,7 +82,7 @@
 .lightning {
     width: 900px;
     position: absolute;
-        z-index: 1;
+    z-index: 1;
 }
 
 
@@ -91,7 +91,6 @@
     position: absolute;
     bottom: 500px;
     left: 550px;
-    
     z-index: 3;
 }
 
@@ -110,5 +109,4 @@
     bottom: 198px;
     left: 750px;
     transform: rotate(-10deg);
-
 }
