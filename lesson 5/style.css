@@ -1,0 +1,114 @@
+.back-picture {
+    width: 1200px;
+    position: absolute;
+    z-index: 0;
+}
+
+.owl {
+    width: 150px;
+    z-index: 1;
+    position: absolute;
+    bottom: 500px;
+    right: 500px;
+    transform: rotate(60deg);
+}
+
+.severus {
+    width: 300px;
+    z-index: 1;
+    position: absolute;
+    bottom: 90px;
+    left: 700px;
+}
+
+.venok {
+    width: 120px;
+    z-index: 3;
+    position: absolute;
+    bottom: 320px;
+    left: 760px;
+}
+
+.rowling {
+    width: 300px;
+    z-index: 1;
+    position: absolute;
+    bottom: 90px;
+    right: 1100px;
+}
+
+.cloud1 {
+    width: 250px;
+    z-index: 2;
+    position: absolute;
+    bottom: 250px;
+    left: 850px;
+}
+
+.cloud2 {
+    width: 250px;
+    z-index: 2;
+    position: absolute;
+    bottom: 250px;
+    left: 350px;
+}
+
+.cloud3 {
+    width: 150px;
+    z-index: 2;
+    position: absolute;
+    bottom: 500px;
+    left: 990px;
+}
+
+.vold{
+    width: 300px;
+    z-index: 2;
+    position: absolute;
+    bottom: 450px;
+    left: -40px;
+    transform: rotate(90deg);
+}
+
+
+.cloud4 {
+    width: 250px;
+    z-index: 2;
+    position: absolute;
+    bottom: 480px;
+    left: 180px;
+}
+
+.lightning {
+    width: 900px;
+    position: absolute;
+        z-index: 1;
+}
+
+
+.harry {
+    width: 100px;
+    position: absolute;
+    bottom: 500px;
+    left: 550px;
+    
+    z-index: 3;
+}
+
+.cloud5 {
+    width: 120px;
+    z-index: 4;
+    position: absolute;
+    bottom: 550px;
+    left: 600px;
+}
+
+.nya {
+    width: 150px;
+    position: absolute;
+    z-index: 3;
+    bottom: 198px;
+    left: 750px;
+    transform: rotate(-10deg);
+
+}
