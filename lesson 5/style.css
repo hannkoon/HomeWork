@@ -1,15 +1,18 @@
-.back-picture {
-    width: 1200px;
-    position: absolute;
-    z-index: 0;
+.picture {
+background: url('img/hog.jpeg') no-repeat center center;
+width: 1200px;
+height: 600px;
+background-size: contain;
+position: relative;
+
 }
 
 .owl {
     width: 150px;
     z-index: 1;
     position: absolute;
-    bottom: 500px;
-    right: 500px;
+    bottom: 450px;
+    left: 900px;
     transform: rotate(60deg);
 }
 
@@ -17,7 +20,7 @@
     width: 300px;
     z-index: 1;
     position: absolute;
-    bottom: 90px;
+    bottom: 0px;
     left: 700px;
 }
 
@@ -25,39 +28,39 @@
     width: 120px;
     z-index: 3;
     position: absolute;
-    bottom: 320px;
+    bottom: 230px;
     left: 760px;
 }
 
 .rowling {
     width: 300px;
-    z-index: 1;
+    z-index: 2;
     position: absolute;
-    bottom: 90px;
-    right: 1100px;
+    bottom: 0px;
+    left: 200px;
 }
 
 .cloud1 {
     width: 250px;
     z-index: 2;
     position: absolute;
-    bottom: 250px;
-    left: 850px;
+    bottom: 200px;
+    left: 890px;
 }
 
 .cloud2 {
     width: 250px;
     z-index: 2;
     position: absolute;
-    bottom: 250px;
-    left: 350px;
+    bottom: 180px;
+    left: 400px;
 }
 
 .cloud3 {
     width: 150px;
     z-index: 2;
     position: absolute;
-    bottom: 500px;
+    bottom: 450px;
     left: 990px;
 }
 
@@ -65,8 +68,8 @@
     width: 300px;
     z-index: 2;
     position: absolute;
-    bottom: 450px;
-    left: -40px;
+    bottom: 350px;
+    left: -20px;
     transform: rotate(90deg);
 }
 
@@ -75,21 +78,22 @@
     width: 250px;
     z-index: 2;
     position: absolute;
-    bottom: 480px;
-    left: 180px;
+    bottom: 400px;
+    left: 200px;
 }
 
 .lightning {
     width: 900px;
     position: absolute;
     z-index: 1;
+    left: 50px;
 }
 
 
 .harry {
     width: 100px;
     position: absolute;
-    bottom: 500px;
+    bottom: 400px;
     left: 550px;
     z-index: 3;
 }
@@ -98,7 +102,7 @@
     width: 120px;
     z-index: 4;
     position: absolute;
-    bottom: 550px;
+    bottom: 450px;
     left: 600px;
 }
 
@@ -106,7 +110,7 @@
     width: 150px;
     position: absolute;
     z-index: 3;
-    bottom: 198px;
+    bottom: 105px;
     left: 750px;
     transform: rotate(-10deg);
 }
