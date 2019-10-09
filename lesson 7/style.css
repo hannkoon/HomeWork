@@ -1,0 +1,135 @@
+.clear {
+    clear: both;
+}
+
+.wrapper{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+@font-face {
+    font-family: 'jetix_revivedregular';
+    src: url('fonts/17882-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'andikaregular';
+    src: url('fonts/17552-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#header {
+background: #ddb8e4;
+height: 250px;
+position: relative;
+}
+
+.logo{
+    position: absolute;
+    left: 250px;
+}
+
+.contacts{
+    font-family: 'andikaregular';
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+
+}
+
+.list0{
+    list-style: none; 
+    margin: 0; 
+    padding-left: 0;
+    background: #ddb8e4;
+}
+
+.links{
+    float: left;
+    padding: 10px 24.31px;
+    border-style: solid;
+    border-color: #a96cd1;
+}
+
+.links a{
+    text-decoration: none;
+    color: rgb(197, 99, 115);
+}
+
+.links a:visited{
+    color: #9420e2;
+}
+
+.links a:hover{
+    color: #311e75;
+}
+
+.links a:active{
+    color: #2844c2;
+}
+
+
+.aside {
+    float: left;
+    width: 300px;
+    margin-right: 20px;
+    background: rgb(143, 90, 143);
+    
+}
+
+.menu{
+    list-style-type: none;
+}
+
+.menu-item{
+    padding: 20px 30px;
+    border-style: solid;
+    border-color: #ddb8e4;
+    font-family: 'andikaregular';
+}
+
+.main-content{
+   width: 100% - 320px;
+}
+
+.video{
+    height: 300px;
+    position: relative;
+    left: 80px;
+}
+
+.root_canal{
+    float: left;
+    height: 200px;
+    padding: 20px;
+}
+
+.title{
+    font-family: 'jetix_revivedregular';
+    display: inline;
+}
+
+.paragraph{
+    font-family: 'andikaregular';
+}
+
+.saf{
+    float: right;
+    height: 250px;
+    padding: 10px;
+}
+
+.list{
+    font-family: 'andikaregular';
+}
+
+#footer{
+    background: #a96cd1;
+    text-align: center;
+    font-family: 'andikaregular';
+}
+
+
