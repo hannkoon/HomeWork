@@ -23,21 +23,16 @@
 
 #header {
 background: #ddb8e4;
-height: 250px;
-position: relative;
 }
 
 .logo{
-    position: absolute;
-    left: 250px;
+    text-align: center;
+    
 }
 
 .contacts{
     font-family: 'andikaregular';
-    position: absolute;
-    left: 20px;
-    bottom: 20px;
-
+    float: left;
 }
 
 .list0{
@@ -92,7 +87,8 @@ position: relative;
 }
 
 .main-content{
-   width: 100% - 320px;
+   width: calc(100% - 320px);
+   float: left;
 }
 
 .video{
