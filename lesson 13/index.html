@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HomeWork</title>
+</head>
+<body>
+    <form method="POST" action="http://nickblack.pro/send.php">
+       <p>
+            <label for="name"> Имя </label>     
+            <input type="text" name='fname' id="name" required>
+       </p>   
+        
+       <p>
+            <label for="sname"> Фамилия </label>     
+            <input type="text" name="sname" id="sname">
+       </p> 
+
+       <p>
+           <label for="age">Возраст</label>
+           <input type="number" name="age" id="age" min="0" max="100">
+       </p>
+
+        <p>
+            <label for="email">Email</label>
+            <input type="email" name="mail" id="email">
+        </p>
+
+        <p>
+            <label for="bday">Дата рождения</label>
+            <input type="date" name="bday" id="bday">
+        </p>
+
+        <p>
+            <label for="phone">Телефон</label>
+            <input type="tel" name="phone" id="phone" required>
+        </p>
+
+        <p>
+            <label>Email получателя</label>
+            <input type="email" name="mymail" value="hannkoon@gmail.com" id="mymail" readonly required>
+        </p>
+
+
+        <p><input type="submit" value="Отослать"></p>    
+
+
+    </form>
+    
+</body>
+</html>
