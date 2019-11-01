@@ -1,54 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap');
+
+.body{
+    background: #3e3b4a;
+}
+
 .wrapper{
     max-width: 1020px;
     margin: 0 auto;
 }
 
-#header{
+#header .wrapper{
     display: flex;
-
-    flex-direction: row;
-
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 
-#main{
+
+#main .wrapper{
     display: flex;
-
-    flex-direction: row;
-
     flex-wrap: wrap;
-
-
 } 
 
 
-#footer{
+#main .wrapper .main-block1, .main-block2, .main-block6{
     display: flex;
-
-    flex-direction: row;
-
+    flex-direction: column;
+    flex-wrap: nowrap;
     justify-content: space-around;
 } 
+
+#main .wrapper .main-block3, .main-block4, .main-block5{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+
+}
+
+
+
+#footer .wrapper{
+    display: flex;
+    justify-content: space-between;
+} 
+
 
 
 .main-block1 {
     height: 512px;
+    width: 100%;
     background: url(img/bulb.jpg) no-repeat;
+    margin-bottom: 20px;
 }
 
 .main-block2 {
     height: 484px;
+    width: 622px;
     background: url(img/clock.png) no-repeat;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
 
 .main-block3{
     height: 484px;
-    background: url(img/goodth.png) no-repeat;
+    width: 378px;
+    background: #eb7b61;
+    margin-bottom: 20px;
+}
+
+.main-block4{
+    height: 420px;
+    width: 260px;
+    background: url(img/pic1.jpg) no-repeat;
+    margin-right: 20px;
+}
+
+
+.main-block5{
+    height: 420px;
+    width: 260px;
+    background: url(img/pic2.jpg) no-repeat;
+    margin-right: 20px;
+
+}
+
+
+.main-block6{
+    height: 420px;
+    width: 460px;
+
+    background: url(img/pic3.jpg) no-repeat;
+
 }
 
 
 
+.top-word{
+    font-family: 'Open Sans', sans-serif;
+    font: 14px bold;
+    color: #ffc7b0;
+    text-transform: uppercase;
+}
+
+.main-block-title, .main-block-text, .main-block3-text2, .header-logo {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main-block3 .tnr{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+}
+
+.main-block3 .big{
+    font-size: 48px;
+}
+
+.main-block3 .small{
+    font-size: 24px;
+}
+
+
+.main-block1 .big{
+    font-size: 72px;
+    margin-left: 40px;
+}
+
+.main-block1 .small{
+    font-size: 36px;
+    margin-top: -120px;
+    margin-left: 40px;
+}
+
+.main-block-link1, .main-block-link2, .main-block-link6{
+    margin-left: 40px;
+    border-style: solid;
+    border-color: #ffe18f;
+    color: white;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    width: 120px;
+    padding: 0 0 5px 10px;
+}
 
 .icon-burger{
     display: inline-flex;
