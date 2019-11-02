@@ -58,9 +58,11 @@
 .main-block2 {
     height: 484px;
     width: 622px;
-    background: url(img/clock.png) no-repeat;
+    background-color: #71b7c3;
+    background-image: url(img/clock2.png);
     margin-right: 20px;
     margin-bottom: 20px;
+    
 }
 
 .main-block3{
