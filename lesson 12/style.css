@@ -12,6 +12,7 @@
 #header .wrapper{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 
@@ -44,24 +45,73 @@
 #footer .wrapper{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 } 
 
 
+#header{
+    padding: 70px 0 70px 0;
+}
+
+#header .menu {
+    font-family: 'Open Sans', sans-serif;
+    color: #898691;
+    text-transform: uppercase;
+
+}
+
+#header .menu-link{
+    text-decoration: none;
+}
+
+.header-search a{
+    font-family: 'Open Sans', sans-serif;
+    color: #898691;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.fa{
+    color: #898691; 
+}
+
+#header .header-logo{
+    font-family: 'Open Sans', sans-serif;
+    font: 48px bold;
+    text-align: center;
+}
+
+#header .header-logo2{
+    font: 13px normal;
+    color: #898691;
+}
+
+#footer{
+    padding: 50px 0 50px 0;
+}
+
+#footer .footer-copy{
+    color: #898691;
+    font: 12px;
+    font-family: 'Open Sans', sans-serif;
+}
 
 .main-block1 {
     height: 512px;
     width: 100%;
     background: url(img/bulb.jpg) no-repeat;
+    padding: 0 0 0 40px;
     margin-bottom: 20px;
 }
 
 .main-block2 {
     height: 484px;
-    width: 622px;
+    width: 582px;
     background-color: #71b7c3;
     background-image: url(img/clock2.png);
     margin-right: 20px;
     margin-bottom: 20px;
+    padding: 0 0 0 40px;
     
 }
 
@@ -70,6 +120,7 @@
     width: 378px;
     background: #eb7b61;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .main-block4{
@@ -127,17 +178,15 @@
 
 .main-block1 .big{
     font-size: 72px;
-    margin-left: 40px;
+    margin: 0;
+    line-height: 0;
 }
 
 .main-block1 .small{
     font-size: 36px;
-    margin-top: -120px;
-    margin-left: 40px;
 }
 
 .main-block-link1, .main-block-link2, .main-block-link6{
-    margin-left: 40px;
     border-style: solid;
     border-color: #ffe18f;
     color: white;
