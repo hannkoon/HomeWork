@@ -123,6 +123,27 @@
     text-align: center;
 }
 
+
+.email-area{
+    background: transparent;
+    border-style: solid;
+    border-color: #ffd9d1;
+    padding: 5px;
+    height: 38px;
+    width: 275px;
+    margin-bottom: 10px;
+}
+
+.subscribe{
+    background: #66689c;
+    color: white;
+    font: 20px bold;
+    font-family: 'Open Sans', sans-serif;
+    border: none;
+    height: 43px;
+    width: 285px;
+}
+
 .main-block4{
     height: 420px;
     width: 260px;
@@ -142,9 +163,10 @@
 
 .main-block6{
     height: 420px;
-    width: 460px;
-
-    background: url(img/pic3.jpg) no-repeat;
+    width: 420px;
+    background-color: #1ab467;
+    background-image: url(img/pic3.png);
+    padding: 0 0 0 40px;
 
 }
 
