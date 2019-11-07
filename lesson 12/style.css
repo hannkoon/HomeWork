@@ -170,6 +170,18 @@
 
 }
 
+.main-block-link {
+    font: 20px bold;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    color: #3d3c4a;
+    height: 33px;
+    width: 95px;
+    background: #ffe18e;
+    text-align: center;
+    padding: 5px 0 5px 0;
+}
+
 
 
 .top-word{
