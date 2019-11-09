@@ -2,6 +2,7 @@
 
 .body{
     background: #3e3b4a;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .wrapper{
@@ -27,7 +28,6 @@
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    justify-content: space-around;
 } 
 
 #main .wrapper .main-block3, .main-block4, .main-block5{
@@ -54,7 +54,6 @@
 }
 
 #header .menu {
-    font-family: 'Open Sans', sans-serif;
     color: #898691;
     text-transform: uppercase;
 
@@ -65,7 +64,6 @@
 }
 
 .header-search a{
-    font-family: 'Open Sans', sans-serif;
     color: #898691;
     text-transform: uppercase;
     text-decoration: none;
@@ -76,7 +74,6 @@
 }
 
 #header .header-logo{
-    font-family: 'Open Sans', sans-serif;
     font: 48px bold;
     text-align: center;
 }
@@ -93,34 +90,34 @@
 #footer .footer-copy{
     color: #898691;
     font: 12px;
-    font-family: 'Open Sans', sans-serif;
 }
 
 .main-block1 {
-    height: 512px;
+    height: 432px;
     width: 100%;
     background: url(img/bulb.jpg) no-repeat;
-    padding: 0 0 0 40px;
+    padding: 40px 0 40px 40px;
     margin-bottom: 20px;
 }
 
 .main-block2 {
-    height: 484px;
+    height: 404px;
     width: 582px;
     background-color: #71b7c3;
     background-image: url(img/clock2.png);
     margin-right: 20px;
     margin-bottom: 20px;
-    padding: 0 0 0 40px;
+    padding: 40px 0 40px 40px;
     
 }
 
 .main-block3{
-    height: 484px;
+    height: 324px;
     width: 378px;
     background: #eb7b61;
     margin-bottom: 20px;
     text-align: center;
+    padding: 80px 0 80px 0;
 }
 
 
@@ -134,14 +131,22 @@
     margin-bottom: 10px;
 }
 
+.email-area::placeholder{
+    color: #ffc7b0;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
 .subscribe{
     background: #66689c;
     color: white;
-    font: 20px bold;
-    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
     border: none;
     height: 43px;
     width: 285px;
+    margin-bottom: 30px;
 }
 
 .main-block4{
@@ -157,25 +162,37 @@
     width: 260px;
     background: url(img/pic2.jpg) no-repeat;
     margin-right: 20px;
-
 }
 
+.main-block5 .main-block-title{
+    text-align: center;
+}
 
 .main-block6{
-    height: 420px;
+    height: 340px;
     width: 420px;
     background-color: #1ab467;
     background-image: url(img/pic3.png);
-    padding: 0 0 0 40px;
+    padding: 40px 0 40px 40px;
+}
 
+.main-block6 .main-block-text{
+    font-size: 20px;
+}
+
+.main-block6 .main-block-title{
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1;
+    margin: 0;
 }
 
 .main-block-link {
-    font: 20px bold;
-    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
     text-decoration: none;
     color: #3d3c4a;
-    height: 33px;
+    height: 30px;
     width: 95px;
     background: #ffe18e;
     text-align: center;
@@ -185,15 +202,31 @@
 
 
 .top-word{
-    font-family: 'Open Sans', sans-serif;
-    font: 14px bold;
+    font-size: 14px;
+    font-weight: bold;
     color: #ffc7b0;
     text-transform: uppercase;
+    margin-bottom: 20px;
 }
 
 .main-block-title, .main-block-text, .main-block3-text2, .header-logo {
     color: white;
-    font-family: 'Open Sans', sans-serif;
+    
+}
+
+.main-block-title{
+    line-height: 1;
+}
+
+.main-block2 .main-block-title {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1;
+    margin: 0;
+}
+
+.main-block2 .main-block-text{
+    font-size: 24px;
 }
 
 .main-block3 .tnr{
@@ -203,17 +236,22 @@
 
 .main-block3 .big{
     font-size: 48px;
+    margin: 0;
 }
 
 .main-block3 .small{
     font-size: 24px;
+    margin-bottom: 40px;
 }
 
+.main-block3 .main-block3-text2{
+    font-size: 14px;
+}
 
 .main-block1 .big{
     font-size: 72px;
     margin: 0;
-    line-height: 0;
+    
 }
 
 .main-block1 .small{
@@ -225,11 +263,11 @@
     border-color: #ffe18f;
     color: white;
     text-decoration: none;
-    font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     font-size: 20px;
     width: 120px;
     padding: 0 0 5px 10px;
+    margin-top: auto;
 }
 
 .icon-burger{
