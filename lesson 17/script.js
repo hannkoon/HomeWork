@@ -12,8 +12,8 @@ num+=12;
 num-=14;
 num*=5;
 num/=7;
-num+=1;
-num-=1;
+num++;
+num--;
 alert(num);
 
 let a = 10;
@@ -29,5 +29,5 @@ let d = 7;
 let result = c + d;
 console.log(result);
 
-let name = 'Привет, Аня!'
-console.log(name);
+let name = 'Аня!'
+console.log('Привет, '+ name);
