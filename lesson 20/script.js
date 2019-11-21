@@ -23,7 +23,7 @@ while (n>=50){
     num++;
 }
 
-console.log(num);
+console.log(num);   
 
 
 
