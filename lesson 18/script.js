@@ -1,25 +1,13 @@
 'use strict';
 
 let a = 1;
-if (a == 1){
+if (a === 1){
     console.log('Верно');
 }else{
     console.log('Не верно');
 }
 
-/* let a = '1';
-if (a == 1){
-    console.log('Верно');
-}else{
-    console.log('Не верно');
-}
 
-let a = 3;
-if (a == 1){
-    console.log('Верно');
-}else{
-    console.log('Не верно');
-} */
 
 let item = true;
 if (item != true){
