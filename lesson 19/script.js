@@ -18,7 +18,7 @@ if (isNumberInRange (number)) {
     alert ('False');
 }
 
-// isNumberInRange(); ???
+console.log(isNumberInRange(number));
 
 //2
 
@@ -38,7 +38,7 @@ if(isEven (number2)){
     alert ('False');
 }
 
-// почему true/false не возвращаются в консоль??? АААААА!
+console.log(isEven(number2));
 
 //3 
 
