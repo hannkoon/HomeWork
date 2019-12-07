@@ -232,7 +232,7 @@
 
 .block8{
     background-color: #323969;
-    width: 100%
+    width: 100%;
     height: 500px;
     display: flex;
     flex-direction: column;
