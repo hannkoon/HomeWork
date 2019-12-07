@@ -16,6 +16,10 @@
     align-items: center;
 }
 
+#header{
+    padding: 30px 0 30px 0;
+}
+
 .header-logo{
     font-family: 'Cinzel', serif;
     text-align: center;
@@ -115,7 +119,7 @@
 
 .block4{
     height: 585px;
-    width: 1440px;
+    width: 100%;
     background-image: url(img/pic2.jpg);
     display: flex;
     flex-direction: column;
@@ -149,7 +153,7 @@
 
 .block5{
     height: 550px;
-    width: 1440px;
+    width: 100%;
     background-image: url(img/Безимени-9.png); 
     /*position: relative;  
     z-index: 1; */
@@ -171,7 +175,7 @@
 .block6{
     background-image: url(img/grayback.jpg);
     height: 648px;
-    width: 1440px;
+    width: 100%
 }
 
 
@@ -228,7 +232,7 @@
 
 .block8{
     background-color: #323969;
-    width: 1440px;
+    width: 100%
     height: 500px;
     display: flex;
     flex-direction: column;
@@ -236,8 +240,12 @@
     align-items: center;
 }
 
+.block8{
+    padding-top: 96px;
+}
+
 .block8-title{
-    padding: 100px 0 20px 0;
+    padding-bottom: 15px;
 }
 
 .block8-text1{
@@ -248,7 +256,7 @@
 
 .block8-text2{
     color: white;
-    padding: 0 180px 40px 1070px;
+    padding: 0 180px 35px 1070px;
 }
 
 
@@ -261,6 +269,7 @@
     border-width: 2px;
     border-color: #999cb4;
     border-radius: 3px;
+    border-style: solid;
 }
 
 ::placeholder{color: white; padding-left: 30px;}
@@ -271,9 +280,8 @@
     background-color: #ff6d6d;
     border-color: transparent;
     border-radius: 3px;
-    -webkit-box-shadow: 5px 6px 5px 0px rgba(0,0,0,0.51);
-    -moz-box-shadow: 5px 6px 5px 0px rgba(0,0,0,0.51);
-    box-shadow: 5px 6px 5px 0px rgba(0,0,0,0.51);
+    border-style: solid;
+    box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, .25);
 }
 
 .block8-description{
