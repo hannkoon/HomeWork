@@ -46,7 +46,8 @@
 .block1 h1{
     font-family: 'Exo 2', sans-serif;
     font-weight: 100;
-    text-transform: uppercase;  
+    text-transform: uppercase;
+    margin: 0;  
 }
 
 .block1-button{
@@ -62,8 +63,9 @@
 }
 
 .block1-play{
-    margin-top: 50px;
-    margin-bottom: 40px;
+    margin-top: 40px;
+    margin-bottom: 38px;
+    color: #8286a3;
 }
 
 .block1-details{
@@ -353,25 +355,33 @@
     padding: 85px 0 98px 0;
 }
 
-
+.footer-form{
+    display: flex;
+}
 
 
 .footer-button{
     width: 50px;
-    height: 50px;
+    height: 52px;
     background-color: #ff6d6d;
     border-color: transparent;
-    border-radius: 3px;
-    -webkit-box-shadow: 5px 6px 5px 0px rgba(0,0,0,0.51);
-    -moz-box-shadow: 5px 6px 5px 0px rgba(0,0,0,0.51);
-    box-shadow: 5px 6px 5px 0px rgba(0,0,0,0.51);
+    border-radius: 0 3px 3px 0;
+    margin: 22px 0 0 0;
+    padding: 0;
+    border: 2px #ff6d6d;
+    box-shadow: 3px 3px 7px 0px rgba(0, 0, 0, .35);
+    color: white;
 }
 
 .footer-email{
     width: 215px;
     height: 50px;
     background-color: #f6f6f6;
-    border-radius: 3px;
+    border-radius: 3px 0 0 3px;
+    margin: 22px 0 0 0;
+    padding: 0;
+    border: 1px #b8b8bf solid;
+    border-right-color: #ff6d6d;
 }
 
 ::placeholder{
