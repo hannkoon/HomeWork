@@ -26,5 +26,8 @@ function myFunction() {
     };
   };
 
-
+  window.addEventListener('load', function() {
+    var card = document.querySelector(".card");
+    card.classList.add("card_vis");
+});
 

@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,300i,400,400i,500,500i,600,600i,700,700i&display=swap');
 
+
+.body{
+  background: url(pic1.png) repeat-y;
+  background-position: right;
+}
+
 .form {
     display: flex;
     flex-wrap: wrap;
@@ -53,4 +59,34 @@
   }
   .button:active {
     top: 1px;
+  }
+
+  .card {
+    background-image: url(pic2.png);
+    background-size: cover;
+    width: 800px;
+    height: 600px;
+    position: absolute;
+    top: 0;
+    left: -800px;
+    transition: 10s all;
+  }
+  
+  .card_vis {
+    animation: card-animation 10s linear;
+  }
+  
+   @keyframes card-animation {
+      0% {
+          transform: translateX(0);
+      }
+      40% {
+          transform: translateX(800px);
+      }
+      70% {
+          transform: translateX(800px);
+      }
+      100% {
+          transform: translateX(-800px);
+      }
   }
