@@ -23,7 +23,8 @@ function myFunction() {
        alert('OHI-S = ' + ohis + ' Неудовлетворительный уровень гигиены, высокий индекс')
     } else if (ohis> 2.5 && ohis<=6){
         alert('OHI-S = ' + ohis + ' Плохой уровень гигиены, очень высокий индекс')
-    } 
+    } else if (ohis>6 || ohis<0){
+        alert('Этого не может быть, введите корректные значения!')}
 };
 
 /* window.addEventListener('load', function() {
