@@ -23,11 +23,11 @@ function myFunction() {
        alert('OHI-S = ' + ohis + ' Неудовлетворительный уровень гигиены, высокий индекс')
     } else if (ohis> 2.5 && ohis<=6){
         alert('OHI-S = ' + ohis + ' Плохой уровень гигиены, очень высокий индекс')
-    }
+    } 
 };
 
-  window.addEventListener('load', function() {
+/* window.addEventListener('load', function() {
     var card = document.querySelector(".card");
     card.classList.add("card_vis");
-});
+}); */
 
