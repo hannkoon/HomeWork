@@ -62,7 +62,7 @@
   }
 
   .card {
-    background-image: url(pic2.png);
+    background-image: url(pic3.png);
     background-size: cover;
     width: 800px;
     height: 600px;
@@ -70,9 +70,21 @@
     top: 0;
     left: -800px;
     transition: 10s all;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Cormorant Garamond';
+    font-weight: 600;
+    font-size: 30px;
   }
-  
-  .card_vis {
+
+.welcome{
+  margin-bottom: 20px;
+} 
+
+
+.card_vis {
     animation: card-animation 10s linear;
   }
   
