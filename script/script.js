@@ -21,10 +21,10 @@ function myFunction() {
         alert('OHI-S = ' + ohis + ' Удовлетворительный уровень гигиены, средний индекс')
     } else if (ohis>1.6 && ohis<=2.5){
        alert('OHI-S = ' + ohis + ' Неудовлетворительный уровень гигиены, высокий индекс')
-    } else if (ohis > 2.5){
+    } else if (ohis> 2.5 && ohis<=6){
         alert('OHI-S = ' + ohis + ' Плохой уровень гигиены, очень высокий индекс')
-    };
-  };
+    }
+};
 
   window.addEventListener('load', function() {
     var card = document.querySelector(".card");
